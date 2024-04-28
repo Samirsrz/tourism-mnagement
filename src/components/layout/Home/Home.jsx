@@ -83,15 +83,18 @@ const Home = () => {
 
         
 
-          <div>
+          <div className="mb-24">
             <h2 className="text-center mb-11 text-5xl font-extrabold">Here is our TASTY CUISINE</h2>
           <Cuisine></Cuisine>
           </div>
 
+              <p className="text-center mb-11 text-5xl font-extrabold">Our Reviews</p>
+   <div className="mt-24 bg-gradient-to-r from-purple-900 to-pink-800 p-4">
+  
+      <Review></Review>
 
-     <Review></Review>
 
-
+      </div>
         </div>
     );
 };

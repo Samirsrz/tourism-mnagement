@@ -1,12 +1,20 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { Tooltip } from 'react-tooltip';
+
 
 const Country = ({country}) => {
  
      const { countryName ,flagImage, description } = country;
 
     return (
-        <Link to={`/countryDetails/${countryName}`}>
+      <div>
+          <Link 
+        data-tooltip-id="tooltip-anchor-hide"
+        data-tooltip-content="Click Me to See More Tourist Spots"
+        data-tooltip-delay-hide={1000}
+        
+        to={`/countryDetails/${countryName}`}>
         <div className="card h-[500px]  card-compact bg-gradient-to-r from-purple-300 to-pink-500 shadow-xl">
         <figure><img className="w-full" src={flagImage} alt="Shoes" /></figure>
         <div className="card-body">
@@ -21,6 +29,8 @@ const Country = ({country}) => {
           </div>
         
         </Link>
+        <Tooltip id="tooltip-anchor-hide" />
+      </div>
     );
 };
 

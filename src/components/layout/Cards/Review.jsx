@@ -36,7 +36,7 @@ const Review = () => {
 
         <div className="flex">
             <SwiperSlide>
-        <div className="card animate__animated animate__bounce animate__delay-1s  w-96 bg-blue-100 shadow-xl">
+        <div className="card animate__animated animate__bounce animate__delay-1s  w-96 bg-purple-400 shadow-xl">
     <div className="card-body">
         
         <h2 className="card-title">Sophia Oliveria</h2>

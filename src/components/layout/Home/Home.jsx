@@ -57,6 +57,10 @@ const Home = () => {
                 }
             </div>
 
+
+            <p className="text-center text-5xl  my-11 font-extrabold mb-8">Our Popular <br /><span className="text-pink-800">TOURIST SPOTS</span> </p>
+
+
           <div className= "grid p-3 justify-center mb-11 text-center grid-cols-1 lg:grid-cols-3 lg:w-[1700px] gap-5 mx-auto items-center">
 
             {

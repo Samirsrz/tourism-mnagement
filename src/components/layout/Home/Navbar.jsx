@@ -16,7 +16,7 @@ const Navbar = ({theme, setTheme}) => {
         .catch()
 
         Swal.fire({
-          position: "top-end",
+          position: "top",
           icon: "success",
           title: "User Logged Out Successfully",
           showConfirmButton: false,

@@ -12,7 +12,7 @@ const Country = ({country}) => {
         <div className="card-body">
           <h2 className="card-title text-2xl border-b-2 border-black pb-4">Country: {countryName}</h2>
           <h2 className="card-title">Spot: {countryName}</h2>
-          <h2 className="card-title">Location: {description}</h2>
+          <h2 className="card-title">Description: {description}</h2>
           
           
         

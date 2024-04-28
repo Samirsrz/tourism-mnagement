@@ -1,0 +1,33 @@
+[
+    {
+      "countryName": "Bangladesh",
+      "flagImage": "https://i.ibb.co/4VPtJ8X/c6bbb5f620d992e44e1b8d656a7f48ad.jpg",
+      "description": "Bangladesh, located in South Asia, is known for its rich cultural heritage, diverse landscapes, and warm hospitality. It is home to the Sundarbans mangrove forest, Cox's Bazar beach, and the historic city of Dhaka."
+    },
+    {
+      "countryName": "Indonesia",
+      "flagImage": "https://i.ibb.co/JC2Fcc1/indonesia-flag-red-white-background-with-copy-space-text-patriotic-indonesia-independence-day-288411.jpg",
+      "description": "Indonesia, the largest archipelago in the world, offers a tapestry of cultures, landscapes, and experiences. From the iconic temples of Bali to the pristine beaches of Komodo, and the vibrant streets of Jakarta, Indonesia captivates visitors with its diversity."
+    },
+    {
+      "countryName": "Thailand",
+      "flagImage": "https://i.ibb.co/pPkhbs0/istockphoto-149353167-612x612.jpg",
+      "description": "Thailand, the 'Land of Smiles,' enchants visitors with its golden temples, tropical beaches, and bustling markets. From the vibrant streets of Bangkok to the tranquil islands of Phuket and Phi Phi, Thailand offers a blend of tradition and modernity."
+    },
+    {
+      "countryName": "Cambodia",
+      "flagImage": "https://i.ibb.co/Yp72f18/cambodia-s-flag-wallpaper-preview.jpg",
+      "description": "Cambodia, home to the magnificent Angkor Wat temple complex, invites visitors to explore its rich history, vibrant culture, and stunning landscapes. From the bustling streets of Phnom Penh to the tranquil shores of Sihanoukville, Cambodia offers unforgettable experiences."
+    },
+    {
+      "countryName": "Malaysia",
+      "flagImage": "https://i.ibb.co/XWVhVp8/HD-wallpaper-malaysian-flag-malaysia-asia-silk-flag-flag-of-malaysia.jpg",
+      "description": "Malaysia, a melting pot of cultures, boasts diverse landscapes, modern cities, and ancient rainforests. From the iconic Petronas Twin Towers in Kuala Lumpur to the pristine beaches of Langkawi and the tea plantations of Cameron Highlands, Malaysia offers something for every traveler."
+    },
+    {
+      "countryName": "Vietnam",
+      "flagImage": "https://i.ibb.co/xhST8Dw/360-F-172776452-n-Pb-DIFCypjnjzh-BS93-NPn-Ydl08-F7-Jk-Cx.jpg",
+      "description": "Vietnam, with its breathtaking natural beauty, rich history, and vibrant culture, is a captivating destination. From the stunning landscapes of Ha Long Bay to the ancient town of Hoi An and the bustling streets of Ho Chi Minh City, Vietnam offers an unforgettable journey."
+    }
+  ]
+  

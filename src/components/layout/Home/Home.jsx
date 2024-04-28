@@ -4,6 +4,7 @@ import Banner from "./Banner";
 import Cuisine from "./Cuisine";
 import { useEffect, useState } from "react";
 import Country from "./Country";
+import Review from "../Cards/Review";
 
 const Home = () => {
    
@@ -86,6 +87,10 @@ const Home = () => {
             <h2 className="text-center mb-11 text-5xl font-extrabold">Here is our TASTY CUISINE</h2>
           <Cuisine></Cuisine>
           </div>
+
+
+     <Review></Review>
+
 
         </div>
     );

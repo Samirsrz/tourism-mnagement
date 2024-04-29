@@ -12,10 +12,7 @@ const Country = ({country}) => {
     return (
       <div>
           <Link 
-        data-tooltip-id="tooltip-anchor-hide"
-        data-tooltip-content="Click Me to See More Tourist Spots"
-        data-tooltip-delay-hide={1000}
-        
+       id="clickable"
         to={`/countryDetails/${countryName}`}>
         <div className="card h-[500px]  card-compact bg-gradient-to-r from-purple-300 to-pink-500 shadow-xl">
         <figure><img className="w-full" src={flagImage} alt="Shoes" /></figure>
@@ -33,7 +30,9 @@ const Country = ({country}) => {
           </div>
         
         </Link>
-        <Tooltip id="tooltip-anchor-hide" />
+        <Tooltip anchorSelect="#clickable" clickable>
+  <button>Click me to see Spots in this Country</button>
+</Tooltip>
       </div>
     );
 };

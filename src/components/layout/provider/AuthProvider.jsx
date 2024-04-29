@@ -56,19 +56,23 @@ const AuthProvider = ({children}) => {
             showConfirmButton: false,
             timer: 1500
           });
-          console.log(res);
+          
         }) 
  }
 
  const githubLogin = () => {
-   Swal.fire({
-      position: "top-end",
-      icon: "success",
-      title: "User LoggedIn Successfully",
-      showConfirmButton: false,
-      timer: 1500
-    });
-        return signInWithPopup(auth,githubProvider)
+   signInWithPopup(auth,githubProvider)
+   .then(res => {
+      Swal.fire({
+         position: "top-end",
+         icon: "success",
+         title: "User LoggedIn Successfully",
+         showConfirmButton: false,
+         timer: 1500
+       });
+     
+     }) 
+
  }
 
 

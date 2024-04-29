@@ -7,7 +7,7 @@ const Footer = () => {
        <img className="pb-8 lg:w-[50px] relative lg:top-6  rounded-full " src="https://i.ibb.co/HrTSywC/detailed-travel-logo-23-2148632074.jpg" alt="" />
        </div>
           <p className="font-bold pb-8">
-            <span className="text-6xl pb-8">TourEase</span> Ltd. <br/>Providing reliable tech since 1992
+            <span className="text-6xl pb-8">TourEase</span> Ltd. <br/>Making Your Tour Amazing
           </p> 
           <p>Copyright © 2024 - All right reserved</p>
         </aside> 

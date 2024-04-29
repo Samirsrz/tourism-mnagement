@@ -3,8 +3,8 @@
 const Error = () => {
     return (
         <div className="m-auto">
-        <h2 className="text-center text-5xl font-bold text-red-500">404 Error</h2>
-        <p className="text-center">page not found</p>
+        <img className="mx-auto" src="https://i.ibb.co/mBpfwSJ/404-error-page-templates.jpg" alt="" />
+     
         </div>
     );
 };

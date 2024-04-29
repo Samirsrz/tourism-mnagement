@@ -5,8 +5,20 @@ import Cuisine from "./Cuisine";
 import { useEffect, useState } from "react";
 import Country from "./Country";
 import Review from "../Cards/Review";
+import { useTypewriter,Cursor } from "react-simple-typewriter";
+
+
+
+
 
 const Home = () => {
+
+    const [typeEffect] = useTypewriter({
+        words:  ['TOURIST SPOTS'],
+        loop:{},
+        typeSpeed:100,
+       deleteSpeed:40
+    })
    
    
    const spots =  useLoaderData();
@@ -34,7 +46,7 @@ const Home = () => {
         
           <div className=" lg:w-[1870px] mt-16  mx-auto rounded-l-lg">
         
-             <p className="text-center text-5xl font-extrabold mb-8">Visit The Most Beautiful Places of <span className="text-pink-800">SOUTHEAST ASIA</span> <br />With Us!</p>
+             <p className="text-center text-5xl font-extrabold mb-8">Visit The Most Beautiful <span className="text-pink-800">{typeEffect}</span> of SOUTHEAST ASIA <br /> With Us!</p>
         
         
           <Banner></Banner>
@@ -43,7 +55,7 @@ const Home = () => {
           </div>
 
 
-          <p className="text-center text-5xl  my-11 font-extrabold mb-8">Countries You Can Visit <br /><span className="text-pink-800">TOURIST SPOTS</span> </p>
+          <p className="text-center text-5xl  my-11 font-extrabold mb-8"><span className="text-pink-800">{typeEffect}</span> <br />In the SouthEast Countries <br /> </p>
 
 
             <div className= "grid p-3 justify-center mb-11 text-center grid-cols-1 lg:grid-cols-3 lg:w-[1700px] gap-5 mx-auto items-center">
@@ -63,7 +75,7 @@ const Home = () => {
 
 
 
-          <p className="text-center text-5xl  my-11 font-extrabold mb-8">Our Popular <br /><span className="text-pink-800">TOURIST SPOTS</span> </p>
+          <p className="text-center text-5xl  my-11 font-extrabold mb-8">Our Popular <br /><span className="text-pink-800">{typeEffect}</span> </p>
 
 
             <div className= "grid p-3 justify-center mb-11 text-center grid-cols-1 lg:grid-cols-3 lg:w-[1700px] gap-5 mx-auto items-center">

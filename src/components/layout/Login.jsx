@@ -4,10 +4,17 @@ import { AuthContext } from "./provider/AuthProvider";
 import Swal from "sweetalert2";
 import SocialLogin from "./SocialLogin";
 
-
+import { useTypewriter,Cursor } from "react-simple-typewriter";
 
 const Login = () => {
 
+
+  const [typeEffect] = useTypewriter({
+    words:  ['Login Now!'],
+    loop:{},
+    typeSpeed:100,
+   deleteSpeed:40
+})
      
    const {signIn} = useContext(AuthContext);
    const location = useLocation();
@@ -68,7 +75,7 @@ const Login = () => {
           
         <div className="hero-content flex-col">
           <div className="text-center lg:text-left">
-            <h1 className="text-5xl font-bold">Login now!</h1>
+            <h1 className="text-5xl font-bold">{typeEffect}</h1>
           
           </div>
           <div className="card shrink-0 lg:w-[700px] shadow-2xl bg-gradient-to-r from-purple-800 to-pink-300">

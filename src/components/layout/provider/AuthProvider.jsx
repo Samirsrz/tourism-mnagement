@@ -47,17 +47,17 @@ const AuthProvider = ({children}) => {
 
      const googleLogin = () => {
      
-      Swal.fire({
-         position: "top-end",
-         icon: "success",
-         title: "User LoggedIn Successfully",
-         showConfirmButton: false,
-         timer: 1500
-       });
-
-     
-
-        return signInWithPopup(auth,googleProvider)
+        signInWithPopup(auth,googleProvider)
+        .then(res => {
+         Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "User LoggedIn Successfully",
+            showConfirmButton: false,
+            timer: 1500
+          });
+          console.log(res);
+        }) 
  }
 
  const githubLogin = () => {

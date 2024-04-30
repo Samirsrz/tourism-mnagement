@@ -31,13 +31,13 @@ const router = createBrowserRouter([
        {
        path:'/',
        element:<Home></Home>,
-       loader: () => fetch('http://localhost:5000/addSpot')
+       loader: () => fetch('https://tourism-management-server-nine-sigma.vercel.app/addSpot')
        },
 
        {
         path: '/allTouristSpot',
         element: <AllTouristSpot></AllTouristSpot>,
-        loader: () => fetch('http://localhost:5000/addSpot/')
+        loader: () => fetch('https://tourism-management-server-nine-sigma.vercel.app/addSpot/')
 
        },
 
@@ -54,7 +54,7 @@ const router = createBrowserRouter([
         {
             path:'/viewSpot/:id',
             element: <PrivateRoute><SpotDetails></SpotDetails></PrivateRoute>,
-            loader: ({params}) => fetch(`http://localhost:5000/addSpot/${params.id}`)
+            loader: ({params}) => fetch(`https://tourism-management-server-nine-sigma.vercel.app/addSpot/${params.id}`)
           },
 
       {
@@ -70,7 +70,7 @@ const router = createBrowserRouter([
       {
         path:'/updateSpot/:id',
         element: <PrivateRoute><UpdateSpot></UpdateSpot></PrivateRoute>,
-        loader:({params}) => fetch(`http://localhost:5000/addSpot/${params.id}`)
+        loader:({params}) => fetch(`https://tourism-management-server-nine-sigma.vercel.app/addSpot/${params.id}`)
       
       },
 
@@ -78,7 +78,7 @@ const router = createBrowserRouter([
       {
        path:'/countryDetails/:countri',
        element: <CountryDetails></CountryDetails>,
-       loader:({params})=>fetch(`http://localhost:5000/country/${params.countri}`),
+       loader:({params})=>fetch(`https://tourism-management-server-nine-sigma.vercel.app/country/${params.countri}`),
 
       }
 

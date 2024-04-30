@@ -30,7 +30,7 @@ const AddTouristSpot = () => {
 
         console.log(touristSpot);
 
-       fetch('http://localhost:5000/addSpot',{
+       fetch('https://tourism-management-server-nine-sigma.vercel.app/addSpot',{
           method: "POST",
           headers:{
             'content-type' : 'application/json'

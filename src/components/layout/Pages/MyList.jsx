@@ -12,7 +12,7 @@ const MyList = () => {
 
    useEffect(()=> {
     
-    fetch(`http://localhost:5000/myList/${user?.email}`)
+    fetch(`https://tourism-management-server-nine-sigma.vercel.app/myList/${user?.email}`)
      .then(res => res.json())
      .then(data => {
 
@@ -37,7 +37,7 @@ const MyList = () => {
         confirmButtonText: "Yes, delete it!"
       }).then((result) => {
          if(result.isConfirmed){
-            fetch(`http://localhost:5000/myList/${_id}`,{
+            fetch(`https://tourism-management-server-nine-sigma.vercel.app/myList/${_id}`,{
 
               method: "DELETE",     
             })
@@ -78,7 +78,7 @@ const MyList = () => {
       
          
 
-            <div className="overflow-x-auto">
+            <div className="lg:overflow-x-auto">
   <table className="table table-zebra">
     {/* head */}
     <thead>

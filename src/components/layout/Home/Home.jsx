@@ -29,7 +29,7 @@ const Home = () => {
 
    useEffect(()=> {
 
-   fetch(`http://localhost:5000/countryAll`,{
+   fetch(`https://tourism-management-server-nine-sigma.vercel.app/countryAll`,{
 
    })
    .then(res => res.json())

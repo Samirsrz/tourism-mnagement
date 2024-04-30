@@ -50,7 +50,7 @@ const Cuisine = () => {
     <p className="font-bold">Rating: 4.7</p>
   </div>
     </div>
-            <div className="card card-side h-[300px] bg-gradient-to-r from-purple-800 to-pink-800  bg-base-100 shadow-xl">
+            <div className="card card-side h-[300px] bg-gradient-to-r from-purple-700 to-pink-800  bg-base-100 shadow-xl">
   <figure><img className="w-2/3"  src="https://i.ibb.co/PT0ry92/Southeast-Asian-Food-Cambodian-Amok.webp" alt="Movie"/></figure>
   <div className="card-body">
   <h2 className="card-title text-xl font-extrabold">Vietnam</h2>
